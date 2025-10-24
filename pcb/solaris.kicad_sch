@@ -1,0 +1,11158 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "09fbe69d-ce71-4fe6-9ff1-a25c182f5527")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x08"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x08_1_1"
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:D_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -1.27 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "D_Small"
+				(at -3.81 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Small_0_1"
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.778)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.778)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:RotaryEncoder_Switch"
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch"
+				(at 0 -6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 6.604 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 2.667)
+					(mid -3.0988 -0.0635)
+					(end -0.381 -2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "GND_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "marbastlib-mx:MX_SW_HS_CPG151101S11"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MX"
+				(at 3.048 1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MX_SW_HS"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MX_SW_HS_CPG151101S11_0_1"
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "pro_micro_rp2040:pro_micro_rp2040"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 11.43 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 11.43 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 11.43 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "pro_micro_rp2040_0_1"
+				(rectangle
+					(start -11.43 17.78)
+					(end 12.7 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "pro_micro_rp2040_1_1"
+				(pin bidirectional line
+					(at -13.97 12.7 0)
+					(length 2.54)
+					(name "GP0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 10.16 0)
+					(length 2.54)
+					(name "GP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 15.24 0)
+					(length 2.54)
+					(name "GP10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 15.24 180)
+					(length 2.54)
+					(name "GP11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -5.08 -20.32 90)
+					(length 2.54)
+					(name "GP12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -2.54 -20.32 90)
+					(length 2.54)
+					(name "GP13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(name "GP14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 2.54 -20.32 90)
+					(length 2.54)
+					(name "GP15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 5.08 -20.32 90)
+					(length 2.54)
+					(name "GP16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 2.54 20.32 270)
+					(length 2.54)
+					(name "GP18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 2.54 0)
+					(length 2.54)
+					(name "GP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "GP20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 2.54)
+					(name "GP21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "GP22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 2.54)
+					(name "GP23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 20.32 270)
+					(length 2.54)
+					(name "GP24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 20.32 270)
+					(length 2.54)
+					(name "GP25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "GP26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 2.54)
+					(name "GP26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "GP28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 2.54)
+					(name "GP29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 0 0)
+					(length 2.54)
+					(name "GP3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 5.08 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -2.54 0)
+					(length 2.54)
+					(name "GP4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -5.08 0)
+					(length 2.54)
+					(name "GP5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 12.7 180)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -7.62 0)
+					(length 2.54)
+					(name "GP6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -10.16 0)
+					(length 2.54)
+					(name "GP7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -12.7 0)
+					(length 2.54)
+					(name "GP8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -13.97 -15.24 0)
+					(length 2.54)
+					(name "GP9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -2.54 20.32 270)
+					(length 2.54)
+					(name "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "BOOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -13.97 7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 10.16 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 15.24 7.62 180)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 161.29 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "035b4228-8ec1-484e-b9d4-3c5589f43962")
+	)
+	(junction
+		(at 134.62 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03c10cfa-532b-49af-b8e5-d177a8dc138b")
+	)
+	(junction
+		(at 64.77 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cbf5a36-b5ed-4a1b-b0ea-bc0bbdc69ef8")
+	)
+	(junction
+		(at 105.41 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1779cbed-b60b-42e5-8fd7-4e6db9917c81")
+	)
+	(junction
+		(at 142.24 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1dd7d052-c639-4d0d-a944-2ef509d51169")
+	)
+	(junction
+		(at 105.41 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24bbfc98-172e-4588-9605-75ca6539d06a")
+	)
+	(junction
+		(at 142.24 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2fe9c75d-da1c-441e-8cc9-3c5d675d3d71")
+	)
+	(junction
+		(at 142.24 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "313ff504-823b-4c87-8830-db53a388b95d")
+	)
+	(junction
+		(at 220.98 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b230d17-9f4d-412c-8785-fc6d7183e34e")
+	)
+	(junction
+		(at 100.33 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3fe39484-231f-4f49-aa8d-0a95de61446f")
+	)
+	(junction
+		(at 203.2 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b4ccd8c-623a-4c11-8978-e1643735009a")
+	)
+	(junction
+		(at 82.55 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5362968b-bd86-4a12-8c40-37a4945fdff8")
+	)
+	(junction
+		(at 198.12 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "53844f3f-1579-47de-85e1-5655a19ab9e4")
+	)
+	(junction
+		(at 87.63 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66e53091-fdd6-4c87-b5a5-320e374120f4")
+	)
+	(junction
+		(at 50.8 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a1112e8-cf51-4fce-a607-6676f1405dc7")
+	)
+	(junction
+		(at 105.41 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d83e769-d10d-4b90-b85d-e7d86542e895")
+	)
+	(junction
+		(at 215.9 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71ed9939-c4df-4281-8511-60f637094757")
+	)
+	(junction
+		(at 133.35 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74cbf870-fd5c-4cb5-8f6a-b3d03fbb1a5b")
+	)
+	(junction
+		(at 64.77 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a3ec236-dd05-498b-9294-23dbd81e3d60")
+	)
+	(junction
+		(at 203.2 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8075d485-08de-416e-aa90-1681b097e538")
+	)
+	(junction
+		(at 166.37 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87e26fca-c74e-40e5-b014-4860e44607b8")
+	)
+	(junction
+		(at 166.37 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a295d80-a219-4d53-b90f-42aa5c13ed71")
+	)
+	(junction
+		(at 180.34 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c7c1db5-46f6-4881-b1d6-ca4028e7a4b4")
+	)
+	(junction
+		(at 198.12 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ee27886-5112-4b82-b960-00eb6c390145")
+	)
+	(junction
+		(at 147.32 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90ee25b8-f83e-4382-bbd2-1f0ee9079bf6")
+	)
+	(junction
+		(at 147.32 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97b5bafc-2292-43b5-b058-24de727da836")
+	)
+	(junction
+		(at 161.29 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ac1f7a0-f750-436d-a90f-503cc5e47bfa")
+	)
+	(junction
+		(at 69.85 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ba355b9-1bf5-4bbc-8a87-86f654ff0a2e")
+	)
+	(junction
+		(at 50.8 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dba654b-1e7e-4d08-ab17-8f538eedebad")
+	)
+	(junction
+		(at 166.37 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9dd0cd8b-db4e-4178-8c1d-24fb51dc07c2")
+	)
+	(junction
+		(at 87.63 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a526151e-147e-40f9-b774-332e9d9db30e")
+	)
+	(junction
+		(at 45.72 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac78215c-fd40-436c-a9aa-5384a2cbcb68")
+	)
+	(junction
+		(at 161.29 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "afb4434a-bbbe-4df3-9360-ad7d58990fec")
+	)
+	(junction
+		(at 82.55 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b05b931e-40ee-4198-a488-76ed091e6d9b")
+	)
+	(junction
+		(at 220.98 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0d342b2-4422-452c-bb15-00648d646d5b")
+	)
+	(junction
+		(at 45.72 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1513237-9b53-46f4-a26a-504ba62d3fb7")
+	)
+	(junction
+		(at 26.67 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5460896-8b95-48b8-8fcc-c19a45d5b4c6")
+	)
+	(junction
+		(at 166.37 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7982722-83a5-4317-b929-469bc5fecb68")
+	)
+	(junction
+		(at 26.67 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcfab3ba-bbef-435d-8a6b-e64678d7c15a")
+	)
+	(junction
+		(at 220.98 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb9dc483-4513-40f0-85f3-25d8f30ecd74")
+	)
+	(junction
+		(at 82.55 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce3191dd-ff16-4ab6-846c-e26a9811789c")
+	)
+	(junction
+		(at 69.85 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce8d89a6-c81b-437b-b8b8-8f1800076283")
+	)
+	(junction
+		(at 100.33 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ceaab2cf-2c88-43e6-9a0b-8e92ae3dcde8")
+	)
+	(junction
+		(at 147.32 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d01eb0e5-3a64-4081-ad9a-a40d0af2f602")
+	)
+	(junction
+		(at 105.41 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2a426c1-8a64-4b79-9b31-09989727c5a4")
+	)
+	(junction
+		(at 83.82 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3c494b6-24a0-4416-807f-2bdbde60d94b")
+	)
+	(junction
+		(at 215.9 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d49703d7-4789-4e77-bd77-4f3126353dd8")
+	)
+	(junction
+		(at 185.42 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d762701c-35ed-48b5-911c-0f3ff43df000")
+	)
+	(junction
+		(at 147.32 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d824bac6-d3b0-4217-9c53-231210855b91")
+	)
+	(junction
+		(at 203.2 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbf68c69-53da-4a16-aa0a-1e295d3fc712")
+	)
+	(junction
+		(at 180.34 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e039b57a-9686-4edb-a1bb-e9696bbcdbbf")
+	)
+	(junction
+		(at 87.63 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0b0bf0a-eafb-4218-8bd6-c64afe217d9b")
+	)
+	(junction
+		(at 69.85 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8298ddc-7b78-4710-a5cb-194e0b943e63")
+	)
+	(junction
+		(at 50.8 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea097373-232d-45d1-ac29-9af5ed29f788")
+	)
+	(junction
+		(at 185.42 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef38f9e9-2976-492e-b5bd-a555fdd30054")
+	)
+	(junction
+		(at 134.62 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0dd8fc6-6048-4c0e-8384-c3f06a6b597a")
+	)
+	(junction
+		(at 100.33 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2ff4fb1-7f20-4ba9-9fe7-0d455f22803b")
+	)
+	(junction
+		(at 185.42 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7b121b8-ad6f-43f1-9aec-7da4e454b450")
+	)
+	(wire
+		(pts
+			(xy 83.82 160.02) (xy 86.36 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0098772a-24ed-4b65-9702-9997c4730a39")
+	)
+	(wire
+		(pts
+			(xy 118.11 157.48) (xy 115.57 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02b36d7a-0688-4db9-a5f2-d632ebcc0ba4")
+	)
+	(wire
+		(pts
+			(xy 134.62 107.95) (xy 137.16 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "052b9a54-ba93-4914-aa98-ff2d257e9db2")
+	)
+	(wire
+		(pts
+			(xy 215.9 43.18) (xy 215.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "060c0d04-88bd-4841-ba4e-92c38b4761ab")
+	)
+	(wire
+		(pts
+			(xy 60.96 22.86) (xy 64.77 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "078e060b-2f7c-4814-9893-632441163840")
+	)
+	(wire
+		(pts
+			(xy 118.11 144.78) (xy 115.57 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ccc7dc-1dc2-4783-8eb9-67718ba00fbd")
+	)
+	(wire
+		(pts
+			(xy 26.67 43.18) (xy 26.67 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd8a847-3a7c-40e1-b906-3e1b0feb93a4")
+	)
+	(wire
+		(pts
+			(xy 134.62 86.36) (xy 133.35 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1294295d-d2d6-424e-b5fa-53621b2b5ced")
+	)
+	(wire
+		(pts
+			(xy 203.2 33.02) (xy 220.98 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e86292-03ec-434d-aa2b-f675be7b3480")
+	)
+	(wire
+		(pts
+			(xy 116.84 102.87) (xy 118.11 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16236a2a-42f5-4413-8e7d-d58a7bf3b1f6")
+	)
+	(wire
+		(pts
+			(xy 82.55 43.18) (xy 82.55 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1923afef-8788-4892-9759-b2af7420e76f")
+	)
+	(wire
+		(pts
+			(xy 234.95 105.41) (xy 223.52 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f62e2fa-9f61-4596-a45c-6546fd6a1418")
+	)
+	(wire
+		(pts
+			(xy 102.87 172.72) (xy 102.87 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212d83b6-5b75-4cd3-b26c-cf1e84124e9c")
+	)
+	(wire
+		(pts
+			(xy 64.77 22.86) (xy 64.77 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21703c72-36b1-4cb4-a06a-0c24ee172ae2")
+	)
+	(wire
+		(pts
+			(xy 105.41 72.39) (xy 147.32 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23dd1243-c278-4702-8d12-3a4702ecefb0")
+	)
+	(wire
+		(pts
+			(xy 83.82 147.32) (xy 86.36 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24077acb-19a6-4bed-9a56-2e0c980efc21")
+	)
+	(wire
+		(pts
+			(xy 220.98 33.02) (xy 232.41 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f77650-314d-4f9f-a9f1-6ea5220a74b5")
+	)
+	(wire
+		(pts
+			(xy 31.75 72.39) (xy 50.8 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271f2c35-de97-4ca4-a191-da616bcf7c86")
+	)
+	(wire
+		(pts
+			(xy 100.33 172.72) (xy 100.33 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a40bfa7-ab87-46f4-bc37-ca2bfb7f6422")
+	)
+	(wire
+		(pts
+			(xy 83.82 142.24) (xy 86.36 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bcfe1dd-6d32-428c-be0d-d117916b262c")
+	)
+	(wire
+		(pts
+			(xy 142.24 43.18) (xy 142.24 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d116811-8174-43e6-a73a-e9675f4f4d7b")
+	)
+	(wire
+		(pts
+			(xy 185.42 53.34) (xy 203.2 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dc1e1c8-7e7e-44a2-b03e-9e966f555c3a")
+	)
+	(wire
+		(pts
+			(xy 87.63 33.02) (xy 105.41 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3088e6e4-ca71-4111-98e6-8708a38975f3")
+	)
+	(wire
+		(pts
+			(xy 116.84 88.9) (xy 118.11 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32e0d2c1-4e7c-4feb-915f-7df2eebe8613")
+	)
+	(wire
+		(pts
+			(xy 115.57 109.22) (xy 118.11 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "334664dc-0daf-4ba2-8c3e-147c37b046f6")
+	)
+	(wire
+		(pts
+			(xy 166.37 33.02) (xy 185.42 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34705fdd-a889-435a-9bcb-078cbfef8a2b")
+	)
+	(wire
+		(pts
+			(xy 82.55 62.23) (xy 82.55 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "384827ff-ed85-4c18-b3cc-f742bca03f3c")
+	)
+	(wire
+		(pts
+			(xy 45.72 43.18) (xy 45.72 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "391ff4ee-69e1-43ff-a00d-b0463c63df6a")
+	)
+	(wire
+		(pts
+			(xy 72.39 142.24) (xy 83.82 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a01edcb-274d-477e-b17d-01d9f375a27e")
+	)
+	(wire
+		(pts
+			(xy 137.16 107.95) (xy 137.16 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b3d5df5-e75a-42ee-890f-678be64d8f7d")
+	)
+	(wire
+		(pts
+			(xy 137.16 91.44) (xy 133.35 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3de2b6ff-e1d9-463f-a1c3-ac553e6f458e")
+	)
+	(wire
+		(pts
+			(xy 147.32 113.03) (xy 166.37 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e3570c8-cbed-4fa2-be36-4943316ca07b")
+	)
+	(wire
+		(pts
+			(xy 95.25 172.72) (xy 95.25 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb1cfe3-2c52-4167-95a1-96d4c1500034")
+	)
+	(wire
+		(pts
+			(xy 176.53 22.86) (xy 180.34 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40fae875-1660-43db-aa8b-889bd33bda32")
+	)
+	(wire
+		(pts
+			(xy 161.29 43.18) (xy 161.29 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41f43f6e-a06a-474f-af0d-9f20d704dc57")
+	)
+	(wire
+		(pts
+			(xy 223.52 107.95) (xy 234.95 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42893eb5-a09e-4355-a447-82f7b177d514")
+	)
+	(wire
+		(pts
+			(xy 86.36 144.78) (xy 83.82 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "438217da-061f-483a-9960-71b8aa48072d")
+	)
+	(wire
+		(pts
+			(xy 147.32 72.39) (xy 166.37 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45cc39c6-1f87-4cc1-aa6e-ec143c0e3f23")
+	)
+	(wire
+		(pts
+			(xy 45.72 22.86) (xy 45.72 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4901163a-8c31-46f5-b4b9-41ca049a5b49")
+	)
+	(wire
+		(pts
+			(xy 83.82 152.4) (xy 86.36 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a9f18e2-62ce-4b59-8684-0a3d2dcc59ea")
+	)
+	(wire
+		(pts
+			(xy 50.8 72.39) (xy 69.85 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e117115-e552-4acc-a86a-cc42fdf22994")
+	)
+	(wire
+		(pts
+			(xy 114.3 92.71) (xy 118.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e51a816-9e26-4659-a1f0-b91d51af409c")
+	)
+	(wire
+		(pts
+			(xy 115.57 162.56) (xy 118.11 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ecd8416-ecc3-46f6-ac2d-2d70e365f3c5")
+	)
+	(wire
+		(pts
+			(xy 96.52 22.86) (xy 100.33 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f113f93-38d0-42c0-b11e-2d46cdf27915")
+	)
+	(wire
+		(pts
+			(xy 133.35 102.87) (xy 134.62 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f576aed-bda7-4e10-9d3c-c4c7bd5b3aab")
+	)
+	(wire
+		(pts
+			(xy 118.11 154.94) (xy 115.57 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51603f07-9147-4c85-b653-74567e0959d1")
+	)
+	(wire
+		(pts
+			(xy 147.32 107.95) (xy 147.32 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523cabda-7d79-47d0-ba38-b39477cddca6")
+	)
+	(wire
+		(pts
+			(xy 203.2 53.34) (xy 220.98 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5375dd53-d9fb-421f-ae0b-f49f63601c50")
+	)
+	(wire
+		(pts
+			(xy 118.11 147.32) (xy 115.57 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d8efc8-fb8f-47e2-a3e2-ad359f828f79")
+	)
+	(wire
+		(pts
+			(xy 116.84 86.36) (xy 118.11 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55c6ee60-f779-49f6-b4a9-8d58823c0c50")
+	)
+	(wire
+		(pts
+			(xy 64.77 43.18) (xy 64.77 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56eec16c-6d50-4961-b96e-cee3d62b243d")
+	)
+	(wire
+		(pts
+			(xy 118.11 149.86) (xy 115.57 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b0a648a-fd46-4903-941a-3637b36b7cc0")
+	)
+	(wire
+		(pts
+			(xy 83.82 162.56) (xy 86.36 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c32d012-5d02-4657-a280-2eb699149cf4")
+	)
+	(wire
+		(pts
+			(xy 83.82 149.86) (xy 86.36 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f806e57-439e-4cb4-9a69-635daa9bd966")
+	)
+	(wire
+		(pts
+			(xy 198.12 22.86) (xy 198.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a996a6-8569-4435-9588-d3fc8e4c2596")
+	)
+	(wire
+		(pts
+			(xy 26.67 22.86) (xy 26.67 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63c5a2b3-5f8f-46ed-b784-0143d9b0007d")
+	)
+	(wire
+		(pts
+			(xy 105.41 113.03) (xy 134.62 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64659cfb-6378-4a5d-98da-202b675bcab1")
+	)
+	(wire
+		(pts
+			(xy 220.98 53.34) (xy 232.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6828c66c-2385-4437-82dc-3d38f0d033c1")
+	)
+	(wire
+		(pts
+			(xy 161.29 22.86) (xy 161.29 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68fa4e79-7aeb-4bce-abe0-e0b6dace354f")
+	)
+	(wire
+		(pts
+			(xy 41.91 22.86) (xy 45.72 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b123dd0-1d1b-4c97-9ddd-0085ffb526bb")
+	)
+	(wire
+		(pts
+			(xy 69.85 72.39) (xy 87.63 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b8fa010-ced8-46bd-9a1e-72f701e1729a")
+	)
+	(wire
+		(pts
+			(xy 203.2 72.39) (xy 220.98 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ff4ebb8-c3a8-47c7-8e7a-231ed47e282e")
+	)
+	(wire
+		(pts
+			(xy 105.41 53.34) (xy 147.32 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a9b752-0ddd-4137-aaf2-9ce36413fcf5")
+	)
+	(wire
+		(pts
+			(xy 166.37 107.95) (xy 166.37 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74971285-711c-48ff-9e78-dba81be1db82")
+	)
+	(wire
+		(pts
+			(xy 234.95 100.33) (xy 223.52 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7670a4df-b520-4b68-bb0d-24ef47e8c612")
+	)
+	(wire
+		(pts
+			(xy 31.75 53.34) (xy 50.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77034ad3-219c-4ed3-b1dd-bfe882cb84aa")
+	)
+	(wire
+		(pts
+			(xy 212.09 22.86) (xy 215.9 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79019628-b7c7-4c5a-903c-04e9ff2b6da7")
+	)
+	(wire
+		(pts
+			(xy 100.33 43.18) (xy 100.33 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a482147-7eb0-487b-bf7b-5b624e8bd8bc")
+	)
+	(wire
+		(pts
+			(xy 105.41 107.95) (xy 105.41 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2392d3-ad1a-4c5a-8888-d2f51204483e")
+	)
+	(wire
+		(pts
+			(xy 157.48 22.86) (xy 161.29 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bba53f6-6c52-44a9-8d33-2a7d7629bec9")
+	)
+	(wire
+		(pts
+			(xy 234.95 92.71) (xy 223.52 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d82012f-cd08-480d-b40d-582b7d989f39")
+	)
+	(wire
+		(pts
+			(xy 138.43 22.86) (xy 142.24 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7df9966b-f603-435f-a631-20c5301c36cf")
+	)
+	(wire
+		(pts
+			(xy 134.62 102.87) (xy 134.62 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f42fe82-a1a4-4c16-a46d-f282956f11a4")
+	)
+	(wire
+		(pts
+			(xy 87.63 53.34) (xy 105.41 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ce280a-ebe4-4c89-96ba-0cfe0fd0e0ab")
+	)
+	(wire
+		(pts
+			(xy 142.24 22.86) (xy 142.24 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "821b0c75-81bb-4e6a-968e-739628bc53d3")
+	)
+	(wire
+		(pts
+			(xy 161.29 62.23) (xy 161.29 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87b2a26b-f7bf-454e-bf02-464977a9e316")
+	)
+	(wire
+		(pts
+			(xy 105.41 172.72) (xy 105.41 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c1c70d5-77ab-440d-a7b4-e0db79e496b7")
+	)
+	(wire
+		(pts
+			(xy 194.31 22.86) (xy 198.12 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dbe210f-8003-41e3-9a02-d0f8024f6a6d")
+	)
+	(wire
+		(pts
+			(xy 69.85 53.34) (xy 87.63 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90beeb64-e495-46ba-b4f1-ec933e0e628b")
+	)
+	(wire
+		(pts
+			(xy 142.24 62.23) (xy 142.24 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93382c7d-a8c6-4ea2-ad49-ab1929d9ca4d")
+	)
+	(wire
+		(pts
+			(xy 100.33 22.86) (xy 100.33 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d4d0c7-dee6-44c1-9960-db75ac7a06b2")
+	)
+	(wire
+		(pts
+			(xy 147.32 33.02) (xy 166.37 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b479f45-d2f1-4bc7-a86a-c23b57ab4c35")
+	)
+	(wire
+		(pts
+			(xy 223.52 110.49) (xy 233.68 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c974ec1-b2eb-43a3-881d-69a150db53dd")
+	)
+	(wire
+		(pts
+			(xy 118.11 92.71) (xy 118.11 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ced7539-bbd4-4800-a802-904b4509dc53")
+	)
+	(wire
+		(pts
+			(xy 220.98 72.39) (xy 232.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d33da97-2c1b-4e8b-8baa-845e1896eaf6")
+	)
+	(wire
+		(pts
+			(xy 234.95 97.79) (xy 223.52 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e202842-96a3-494c-a0c0-d6e8f8c44700")
+	)
+	(wire
+		(pts
+			(xy 166.37 72.39) (xy 185.42 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5412b53-5362-462f-8313-920396bc5ca0")
+	)
+	(wire
+		(pts
+			(xy 118.11 152.4) (xy 115.57 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a546eb77-92ef-4943-bca5-2b0ab80d7355")
+	)
+	(wire
+		(pts
+			(xy 97.79 172.72) (xy 97.79 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a65b9181-0e0b-4109-8dcb-39d93cd1b5ec")
+	)
+	(wire
+		(pts
+			(xy 234.95 95.25) (xy 223.52 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa3e0028-fae7-4e32-86b9-2f4eca7172e5")
+	)
+	(wire
+		(pts
+			(xy 180.34 22.86) (xy 180.34 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa61aca2-9bb4-4430-ae96-1e6721f78e7e")
+	)
+	(wire
+		(pts
+			(xy 87.63 72.39) (xy 105.41 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab74ae3f-915d-4f4e-8631-d679421c4c95")
+	)
+	(wire
+		(pts
+			(xy 83.82 144.78) (xy 83.82 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acc606a8-662a-47b4-862b-cad83631dcd3")
+	)
+	(wire
+		(pts
+			(xy 118.11 109.22) (xy 118.11 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f29e16-d6f7-4ffd-ab33-c9f8b2160cb9")
+	)
+	(wire
+		(pts
+			(xy 83.82 154.94) (xy 86.36 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baab3d21-47ce-4d26-81b2-e29509482c69")
+	)
+	(wire
+		(pts
+			(xy 180.34 43.18) (xy 180.34 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb299c2-6537-4123-ba7d-a39daccb938a")
+	)
+	(wire
+		(pts
+			(xy 115.57 160.02) (xy 118.11 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6d4b81-2192-4146-a234-9ba524e85213")
+	)
+	(wire
+		(pts
+			(xy 82.55 22.86) (xy 82.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ea2ed3-1136-49a2-bf63-d813f9c7fb72")
+	)
+	(wire
+		(pts
+			(xy 185.42 33.02) (xy 203.2 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c686f373-6ece-4575-a6e2-1918d827513e")
+	)
+	(wire
+		(pts
+			(xy 50.8 33.02) (xy 69.85 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69185a9-d71f-4f27-9521-7d69eff9908a")
+	)
+	(wire
+		(pts
+			(xy 215.9 22.86) (xy 215.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb966a4e-d9a5-46e8-b388-80c4ad3b9346")
+	)
+	(wire
+		(pts
+			(xy 185.42 72.39) (xy 203.2 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbcad701-df77-467a-bef8-e9b5d7ade0aa")
+	)
+	(wire
+		(pts
+			(xy 105.41 33.02) (xy 147.32 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdd67d1e-6281-4c7b-b294-d4edece07f84")
+	)
+	(wire
+		(pts
+			(xy 166.37 53.34) (xy 185.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf727ec6-c7d0-4b87-8468-2f2d3dd3123d")
+	)
+	(wire
+		(pts
+			(xy 134.62 113.03) (xy 147.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e9437a-633f-4991-bdc5-53015b67629d")
+	)
+	(wire
+		(pts
+			(xy 69.85 33.02) (xy 87.63 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f0e00a-6e91-4af7-8fb8-68a4561d4e6d")
+	)
+	(wire
+		(pts
+			(xy 83.82 157.48) (xy 86.36 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8af7f7e-2846-4d1c-b08c-8dee1f72fa6b")
+	)
+	(wire
+		(pts
+			(xy 22.86 22.86) (xy 26.67 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8fde009-949a-444f-a95f-b12fa11b115a")
+	)
+	(wire
+		(pts
+			(xy 87.63 107.95) (xy 87.63 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d981c747-1469-4e65-8d07-5ffa9af6e546")
+	)
+	(wire
+		(pts
+			(xy 133.35 86.36) (xy 130.81 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9e71c49-c5a2-4482-8622-2dcd4ac5ca60")
+	)
+	(wire
+		(pts
+			(xy 78.74 22.86) (xy 82.55 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da29be58-961a-4066-9264-025d8566241d")
+	)
+	(wire
+		(pts
+			(xy 116.84 105.41) (xy 118.11 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da75f1e0-aaba-4058-8de8-84b9ab0569f1")
+	)
+	(wire
+		(pts
+			(xy 87.63 113.03) (xy 105.41 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad853d9-d982-4ed1-92bb-59694dbff918")
+	)
+	(wire
+		(pts
+			(xy 198.12 43.18) (xy 198.12 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df686b00-0852-4cb1-8f60-5b2a58fefc8c")
+	)
+	(wire
+		(pts
+			(xy 83.82 165.1) (xy 86.36 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3eed010-eb51-4f10-b2e0-b19705057a77")
+	)
+	(wire
+		(pts
+			(xy 118.11 165.1) (xy 115.57 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e567da49-c376-4f73-8272-c111ea96b6ed")
+	)
+	(wire
+		(pts
+			(xy 147.32 53.34) (xy 166.37 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e513ae-f870-46e5-a320-ed495817538b")
+	)
+	(wire
+		(pts
+			(xy 130.81 139.7) (xy 115.57 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e48014-a9b2-4cda-a48a-219b67189bd9")
+	)
+	(wire
+		(pts
+			(xy 50.8 53.34) (xy 69.85 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb1bde75-cdee-4925-83c8-c103f380e2aa")
+	)
+	(wire
+		(pts
+			(xy 133.35 107.95) (xy 134.62 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec0db901-c625-4ed3-b856-01a722c86877")
+	)
+	(wire
+		(pts
+			(xy 31.75 33.02) (xy 50.8 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec66b5a8-1df3-42f3-bb35-b6e5d3e63615")
+	)
+	(wire
+		(pts
+			(xy 166.37 113.03) (xy 177.8 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed38d1a5-0c91-478f-8fa4-07b06cc173be")
+	)
+	(wire
+		(pts
+			(xy 100.33 62.23) (xy 100.33 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f151c0f2-94f1-4ac2-ae22-a9d2253f64f2")
+	)
+	(wire
+		(pts
+			(xy 234.95 102.87) (xy 223.52 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca083d0-dff5-40f3-8ec7-da55cc335187")
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 248.92 132.08 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "959d7448-9407-4df0-ad76-16c16c57073a")
+	)
+	(global_label "ENC_B"
+		(shape input)
+		(at 115.57 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0354c633-a6bf-497e-97ab-4642ef73e42a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 106.5977 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC_A"
+		(shape input)
+		(at 116.84 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05ea1c85-62e8-4e64-9b11-9600e9178237")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.0491 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS"
+		(shape input)
+		(at 105.41 172.72 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07f2ab93-b196-4bbb-8ac1-5dedd94aec73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.41 178.1847 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL9"
+		(shape input)
+		(at 118.11 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0d6fece5-48df-4443-9626-8e99bbfc7055")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.9333 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 177.8 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0f85cadf-2ff2-4087-bf8f-20acc9054db1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.0466 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC_B"
+		(shape input)
+		(at 114.3 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10c9914b-100b-4255-93eb-634860eea2d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 105.3277 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW0"
+		(shape input)
+		(at 232.41 33.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24adc156-0da6-4993-91a9-4ec69f5a0109")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.6566 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 234.95 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "27d3676f-4e61-4f88-bb15-83dc25f253e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.5314 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC_A"
+		(shape input)
+		(at 83.82 162.56 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32b5dfb7-313c-417a-826c-8dc2b5922640")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.0291 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 234.95 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3cda1c77-c87e-4ad1-bfdb-67a4326b6c85")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.5314 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 138.43 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "451eaae5-9af5-4449-a5d8-c8427f3f17af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.6067 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 22.86 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "594ca614-070f-4498-84e5-c4e8b2ad4151")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.0367 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW0"
+		(shape input)
+		(at 118.11 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ac84846-b097-4a57-b678-9855496e2183")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.3566 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCLK"
+		(shape input)
+		(at 100.33 172.72 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "60cc095b-42b1-48b1-9e12-c311427a0fc8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.33 180.4828 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL5"
+		(shape input)
+		(at 118.11 149.86 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65108322-1d45-497a-9b8f-34aafaafbbf9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.9333 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL6"
+		(shape input)
+		(at 118.11 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6a73714e-9877-4164-9630-b1adf8b27008")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.9333 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 118.11 157.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e04bcfd-6cc1-40ed-9179-916e53099655")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.3566 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL7"
+		(shape input)
+		(at 118.11 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "720ef5ae-7ebd-42be-ad24-59859cf8ea14")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.9333 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_{IN}"
+		(shape input)
+		(at 118.11 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "75a3773c-31b2-4179-a241-e3523d658ad9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.5145 144.7006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTION"
+		(shape input)
+		(at 234.95 95.25 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d10daeb-2a4c-457b-8697-689b6b6b1bc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 244.9505 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL7"
+		(shape input)
+		(at 176.53 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "7db8cad3-8cf8-4b00-aaf2-34768178ff54")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.7067 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS"
+		(shape input)
+		(at 234.95 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7e6c06b9-c0eb-4fc4-b64b-6375e739b898")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.4147 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_{IN}"
+		(shape input)
+		(at 234.95 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "85e72070-c25b-4c05-8a31-2948f9ddd36c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.3545 107.8706 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC_A"
+		(shape input)
+		(at 116.84 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ef4d5be-3c4f-42cf-8f34-0e35b1b946f5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.0491 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 83.82 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92e4ccc9-d7c1-4ed1-9120-9236cb3385dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.9967 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL0"
+		(shape input)
+		(at 134.62 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9714d348-9d18-45db-a321-62090bdae5de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.4433 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 83.82 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b0848e4-7f9d-462a-9f94-9fce52a0d236")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.5734 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW3"
+		(shape input)
+		(at 118.11 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a1c18dc4-aff2-4ab9-afcb-a34fb2103d20")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.3566 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 83.82 149.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a28f8fb7-3ae1-468b-99cd-a9444518a693")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.9967 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 60.96 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4dbea6c-ec7b-4f4b-be04-e63a726dcada")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 53.1367 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 96.52 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ab54ddca-f2a2-47e0-8b14-158ff15a9a1e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.6967 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ENC_B"
+		(shape input)
+		(at 83.82 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae7ba618-f787-4ac3-93bc-e3038b9458fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.8477 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 83.82 154.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3e6dd4a-c3f7-4c78-8d85-179e32de54e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.9967 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL8"
+		(shape input)
+		(at 118.11 160.02 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bec705db-4e24-42ec-a1c0-f816547f4c4c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.9333 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL8"
+		(shape input)
+		(at 194.31 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d36dba89-a040-4e2c-99ef-fa777a420af2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.4867 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL3"
+		(shape input)
+		(at 78.74 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d969c2eb-c778-428a-872a-cf27dbcf8c66")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.9167 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL1"
+		(shape input)
+		(at 41.91 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc0e5c98-5bc6-443a-9123-cd0b4601eb48")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.0867 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MISO"
+		(shape input)
+		(at 95.25 172.72 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e009fe48-ab6d-4348-90fd-e9b37a9acbc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.25 180.3014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL6"
+		(shape input)
+		(at 157.48 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e2549014-6d44-4d61-a18e-296883ea17a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.6567 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW2"
+		(shape input)
+		(at 232.41 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e35e71b1-7d08-4d30-8b27-c6ee379a4c07")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.6566 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTION"
+		(shape input)
+		(at 97.79 172.72 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e65f0af4-75f0-48f9-a4e3-8294fe11f637")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 97.79 182.7205 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCLK"
+		(shape input)
+		(at 234.95 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea6d0113-cb93-47cf-9fa2-548218891afe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.7128 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RESET"
+		(shape input)
+		(at 234.95 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f19ee6fc-0aa0-471e-8a83-a50e809a0107")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 243.6803 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL4"
+		(shape input)
+		(at 83.82 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f327edab-92b6-4f93-8cad-70ea98daccaa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.9967 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "ROW1"
+		(shape input)
+		(at 232.41 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3c1203b-ee73-45b1-a862-43f560a0eace")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 240.6566 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 102.87 172.72 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f5698d0e-a03a-43a3-9d5e-8b6e9f291171")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 102.87 180.3014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL9"
+		(shape input)
+		(at 212.09 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f89e1316-c61c-4b90-aa04-3aeb8e289921")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 204.2667 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "COL2"
+		(shape input)
+		(at 83.82 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fba765de-55e9-4efe-a731-7789a86e4815")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.9967 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 200.66 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00c191e2-cbed-47e1-8fbe-08f19db2702e")
+		(property "Reference" "MX8"
+			(at 200.66 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 200.66 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 200.66 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 200.66 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0c2fdaa4-bb39-4548-9eb2-4c72febd8b7f")
+		)
+		(pin "1"
+			(uuid "71261625-44df-45e7-9987-ae08757257e0")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 163.83 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0177afb5-b203-4cbf-b1be-f963f1a6e6e9")
+		(property "Reference" "MX33"
+			(at 163.83 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1.25u"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 163.83 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9054687c-fd1b-4fa8-af9f-c8e9a5195ae5")
+		)
+		(pin "1"
+			(uuid "49683752-2b29-4c91-9ebd-8d4a034a47d4")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 85.09 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0939d554-a737-46bd-bcb2-a67f55d4ca88")
+		(property "Reference" "MX3"
+			(at 85.09 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 85.09 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 85.09 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 85.09 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c0f7d9c2-3629-4e64-9271-9d040efbdfc5")
+		)
+		(pin "1"
+			(uuid "eb880aae-d394-46c7-8cb9-0711d2d5cfd9")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 50.8 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d2509e6-3d76-4fc0-90e5-953d8b19c3f3")
+		(property "Reference" "D21"
+			(at 53.34 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 53.34 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 50.8 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 50.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 50.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "053b91be-c267-49ac-a4ed-d8a9b793a67b")
+		)
+		(pin "2"
+			(uuid "8ef1b9d1-9c88-4648-bc74-b1a510b3a42b")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 48.26 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e4dee50-1d29-4e6f-8095-b12fb0476280")
+		(property "Reference" "MX1"
+			(at 48.26 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 48.26 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 48.26 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4885f83e-302c-415b-9b6b-b94b2c9e94d2")
+		)
+		(pin "1"
+			(uuid "a9df8997-8bf2-462f-b117-f0a0ef367e43")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 105.41 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f529f68-98c8-44e4-a6cd-ea881f135f2d")
+		(property "Reference" "D24"
+			(at 107.95 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 107.95 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 105.41 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 105.41 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 105.41 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 105.41 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "45ecb6d5-b1ba-476d-9ba4-7b7c797676aa")
+		)
+		(pin "2"
+			(uuid "ffc552e2-96d3-485c-a1c3-db4aa705eea0")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 203.2 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1483b888-0771-4879-a9f8-951c1b332ef3")
+		(property "Reference" "D18"
+			(at 205.74 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 205.74 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 203.2 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 203.2 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75f382f6-746f-4105-b66e-74858fe1de4f")
+		)
+		(pin "2"
+			(uuid "19175bbc-c1ac-4876-8d9b-21f344fdcf7b")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 147.32 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a836521-2a5d-4a01-aeab-685d7dcf7382")
+		(property "Reference" "D25"
+			(at 149.86 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 149.86 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 147.32 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9a5ff6a-d89b-4b1b-940c-2d5f95edeb89")
+		)
+		(pin "2"
+			(uuid "15e4d414-8c2a-4d48-856e-c2424db73ae1")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 116.84 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cbdd2d3-06bf-43de-8b5f-3118aea772d6")
+		(property "Reference" "#PWR00"
+			(at 116.84 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7f42142-8cb8-4b65-b35a-8f1d19945412")
+		)
+		(instances
+			(project ""
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "#PWR00")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 203.2 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cc4b475-555a-478d-89e6-c48421fb538d")
+		(property "Reference" "D28"
+			(at 205.74 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 205.74 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 203.2 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 203.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 203.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 203.2 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a14ae0d-5fca-4e76-bc1b-e678af0436f0")
+		)
+		(pin "2"
+			(uuid "fa83b418-5242-45da-aba7-1b4fdf519495")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 185.42 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e5fe3ed-6a22-43e4-828f-69810e41d6a0")
+		(property "Reference" "D27"
+			(at 187.96 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 187.96 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 185.42 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 185.42 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 185.42 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "333d1687-9772-4292-892a-c9901d655bab")
+		)
+		(pin "2"
+			(uuid "9686ff6f-a9e7-4519-9fc1-fda8bb9e8750")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 182.88 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2192f378-a6ec-4502-9213-a2dd13ebbfb9")
+		(property "Reference" "MX27"
+			(at 182.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 182.88 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 182.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c266ad1a-c828-4c6e-a7df-8f8cd98fa3f2")
+		)
+		(pin "1"
+			(uuid "92226dbf-57a9-44b7-9b53-3f43a36063dd")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 218.44 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23c12ef3-41ac-4130-8353-47b7d4619713")
+		(property "Reference" "MX29"
+			(at 218.44 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 218.44 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 218.44 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 218.44 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "96f7fec4-4fb9-4aa8-9bfa-500373d3c6c1")
+		)
+		(pin "1"
+			(uuid "bf54683a-536d-4591-8e90-97f177fd0e23")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 29.21 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24916942-3900-4b76-b8bd-6a016794c534")
+		(property "Reference" "MX0"
+			(at 29.21 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 29.21 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 29.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 29.21 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be6092ed-f407-4b10-a9c8-18372f91e668")
+		)
+		(pin "1"
+			(uuid "64b6993a-9c04-4d09-b6c3-831ddab2c3e3")
+		)
+		(instances
+			(project ""
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 105.41 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30621634-2f14-48a5-9b48-b717faa9a09d")
+		(property "Reference" "D31"
+			(at 102.87 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 102.87 118.364 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 105.41 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 105.41 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2f3d994-7e04-47a9-8d2d-985a988201f9")
+		)
+		(pin "2"
+			(uuid "d56c91f2-ddf1-4f5c-b83a-e4092b81ad24")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.81 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36f0cf83-c0db-4715-99c5-d8c4474af8bf")
+		(property "Reference" "#PWR03"
+			(at 130.81 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5593db7-0d91-4948-a4fd-ac332d7583db")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 185.42 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "384ebf66-8b8e-401d-a494-44c7a8f66db0")
+		(property "Reference" "D17"
+			(at 187.96 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 187.96 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 185.42 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 185.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 185.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6b315773-4aab-4bd9-a3dc-226c72b07c13")
+		)
+		(pin "2"
+			(uuid "42fdb089-53c2-4e5d-a98f-d16e526001e4")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 87.63 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38b41a1e-5cb0-4d72-87c1-f1eca70e6d63")
+		(property "Reference" "D23"
+			(at 90.17 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 90.17 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 87.63 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 87.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 87.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 87.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "898ba550-68b7-4485-85f2-7417a3a9142e")
+		)
+		(pin "2"
+			(uuid "34e6f8f9-b766-415a-82b0-ce8432898a0a")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 125.73 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39127aa1-2308-4ad6-92af-5efde810c7fc")
+		(property "Reference" "SW1"
+			(at 125.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_Switch"
+			(at 125.73 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "misc:EVQWGD001"
+			(at 121.92 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 125.73 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "aea1c265-a48a-48dd-bc5c-6251680c52e8")
+		)
+		(pin "A"
+			(uuid "12137066-e799-4a80-a9ac-fff40aaefec6")
+		)
+		(pin "S1"
+			(uuid "afee52a9-066c-4d55-b526-e4a1aa8add17")
+		)
+		(pin "S2"
+			(uuid "3d8b7e93-08cd-4f1f-bbde-12212619573c")
+		)
+		(pin "B"
+			(uuid "ead88cba-ee86-49ed-853f-2b7bf4e1c17a")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 220.98 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ca6f79b-cf18-4e95-9e57-22326899ac3b")
+		(property "Reference" "D19"
+			(at 223.52 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 223.52 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 220.98 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 220.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 220.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 220.98 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "08ff3887-efef-4510-ac80-488de6138d86")
+		)
+		(pin "2"
+			(uuid "0e9179d6-6e47-48ba-beeb-d75cc87d88a7")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 125.73 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42dfaadd-73f6-4c91-ad0c-ec20fb36bdcd")
+		(property "Reference" "SW0"
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_Switch"
+			(at 125.73 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Keebio-Parts:RotaryEncoder_EC11-no-legs"
+			(at 121.92 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 82.296 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 125.73 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C"
+			(uuid "16a5c9e5-eb11-4c5e-a249-c04f68df3bd8")
+		)
+		(pin "A"
+			(uuid "a431fc8c-cc44-4161-8337-01508057b0e3")
+		)
+		(pin "S1"
+			(uuid "4f0afb5d-b4ff-419d-9a60-8c97e58c3d24")
+		)
+		(pin "S2"
+			(uuid "42a7f13e-0503-4f2a-b87d-32109d306cc6")
+		)
+		(pin "B"
+			(uuid "8942117a-03fe-4b13-961e-c5ed369c569d")
+		)
+		(instances
+			(project ""
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "SW0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 31.75 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44f54230-ba94-4bd1-96eb-a16e58922877")
+		(property "Reference" "D10"
+			(at 34.29 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 34.29 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 31.75 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 31.75 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28507673-7509-4d33-9fc3-25f002309f83")
+		)
+		(pin "2"
+			(uuid "ca2b81ff-29ab-4351-901b-63eb3e094008")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 48.26 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4665f81e-07ef-4c77-bdfe-74f67d9bc3d6")
+		(property "Reference" "MX21"
+			(at 48.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 48.26 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "63c1e7dc-4913-466e-a89a-14cfaab9f897")
+		)
+		(pin "1"
+			(uuid "88610bfa-6daf-4d6c-ae7e-8691259b7a10")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 166.37 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47735f7f-bc32-4051-9dde-8bfab718adac")
+		(property "Reference" "D33"
+			(at 168.91 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 168.91 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 166.37 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 166.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 166.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b8709bb2-7da3-4283-82d2-f01d168789e7")
+		)
+		(pin "2"
+			(uuid "0459e2b5-c1c9-4cca-9373-08a1e30a467d")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 182.88 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47ae8dc6-e238-4391-8b64-85c4096e0302")
+		(property "Reference" "MX17"
+			(at 182.88 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 182.88 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 182.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 182.88 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5bab1758-edb4-4fb5-90e6-69ff55f13733")
+		)
+		(pin "1"
+			(uuid "69443237-3184-44de-9055-4585d3ae2278")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 166.37 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a7a67ed-0957-4ae5-9073-94ded86b7205")
+		(property "Reference" "D26"
+			(at 168.91 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 168.91 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 166.37 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 166.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 166.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8918933-a17c-415f-a1f9-06051e15bf5f")
+		)
+		(pin "2"
+			(uuid "5e59fae2-7d74-470f-8aa0-f98eff392569")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 116.84 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ad26ea7-17ec-43a9-a0ab-4655d883d565")
+		(property "Reference" "#PWR02"
+			(at 116.84 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5150e252-1ab5-41f1-8fdb-4a93ae51e829")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 200.66 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b8879c9-2660-4486-8476-c4cf53beb88a")
+		(property "Reference" "MX18"
+			(at 200.66 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 200.66 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 200.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 200.66 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ffe7d5f-6e95-47bd-a45a-dbe27efed702")
+		)
+		(pin "1"
+			(uuid "25a0f5f7-9028-406c-917e-e20e3351b6e6")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 69.85 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4bb72aca-5cc1-49ce-b34a-a913562e8b9c")
+		(property "Reference" "D12"
+			(at 72.39 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 72.39 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 69.85 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 69.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 69.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 69.85 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9bfa14f-8d6e-4e47-a5b5-a4b9fff216d4")
+		)
+		(pin "2"
+			(uuid "f704baca-acac-488b-95e2-8a5497e2ac18")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pro_micro_rp2040:pro_micro_rp2040")
+		(at 100.33 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4eed02a6-2b21-4bbd-ab3a-48e5da0b77b5")
+		(property "Reference" "U0"
+			(at 107.6041 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 107.6041 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "pro_micro_rp2040:pro_micro_rp2040"
+			(at 111.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "9937c229-c004-48ca-ab4c-e044dacc6586")
+		)
+		(pin "23"
+			(uuid "ce643f7e-85c2-4371-b0d1-117e79ac78a3")
+		)
+		(pin "GND"
+			(uuid "75838131-5fcf-4192-b049-7d582c794a80")
+		)
+		(pin "4"
+			(uuid "8631e9f2-e0b1-4ec0-8fb6-c37d4bc407d0")
+		)
+		(pin "27"
+			(uuid "c168339d-69aa-4272-b7bc-438825acbd74")
+		)
+		(pin "22"
+			(uuid "34aa9ad8-a53a-4916-add2-9a7d3b54b9c8")
+		)
+		(pin "6"
+			(uuid "f1ca0d76-46e7-4e63-b324-cee99e02ecf0")
+		)
+		(pin "18"
+			(uuid "a5b4cb9f-f401-499d-ba1c-3c11003c9be6")
+		)
+		(pin "16"
+			(uuid "8b82284a-342a-4e6d-83e7-d7a230eb4397")
+		)
+		(pin "GND"
+			(uuid "c57a41ab-ff62-40ed-bb91-f0505cf163ad")
+		)
+		(pin "5"
+			(uuid "4875b744-6c09-4e65-be9f-80723b9ae31e")
+		)
+		(pin "1"
+			(uuid "7e9f5038-37cb-41c9-b305-5727aab8020e")
+		)
+		(pin "0"
+			(uuid "cd912fcf-fc83-4c86-81f3-5aa080c63069")
+		)
+		(pin "10"
+			(uuid "2e801b15-cd4a-41bf-859c-6cc15c82e1ee")
+		)
+		(pin "28"
+			(uuid "071d8241-c7f7-49a2-aa83-d789ed156c72")
+		)
+		(pin "11"
+			(uuid "42692e88-4273-4a89-bd75-39679b2ae63a")
+		)
+		(pin "RST"
+			(uuid "ce213b59-fc03-4fc3-bf8d-20b6c5f61f26")
+		)
+		(pin "9"
+			(uuid "08b81ecc-a9f4-42fd-8e07-53ce621fb5f2")
+		)
+		(pin "21"
+			(uuid "a2c8a82f-9d06-4f16-b12b-9f01a7d839da")
+		)
+		(pin "GND"
+			(uuid "812113ef-d377-4871-952f-7c61859eee3c")
+		)
+		(pin "7"
+			(uuid "1f32d1dd-078b-4d01-97d1-267afc297ffb")
+		)
+		(pin "29"
+			(uuid "82b7088e-1898-44ba-a17c-577f36220bea")
+		)
+		(pin "24"
+			(uuid "99411d39-5e60-4a72-b01d-4e1d1b943761")
+		)
+		(pin "5V"
+			(uuid "f29664f8-b978-4a1f-aecd-5ad2774c4ab9")
+		)
+		(pin "3"
+			(uuid "149d50ad-9f2f-41fe-838d-827f7f2f853d")
+		)
+		(pin "26"
+			(uuid "59fcab58-3aba-4033-813d-307f2dd4e558")
+		)
+		(pin "3V3"
+			(uuid "ccd2f37c-b88b-44a8-aab5-7d6387bb5471")
+		)
+		(pin "8"
+			(uuid "e564e218-d9fe-43af-996b-d7e81425e8dd")
+		)
+		(pin "20"
+			(uuid "092972d6-8af8-49c2-8726-8f5700eec1f0")
+		)
+		(pin "13"
+			(uuid "71f30bcc-c1e8-40b8-b1a6-f6903f695324")
+		)
+		(pin "2"
+			(uuid "33e81bfe-1649-406a-a66b-b51b15f98057")
+		)
+		(pin "BOOT"
+			(uuid "98acf6f7-e031-43e1-9126-ce9f819a6aa8")
+		)
+		(pin "25"
+			(uuid "21f7d015-2567-431b-862c-dbcd8afa9996")
+		)
+		(pin "12"
+			(uuid "1713bb5b-5ff7-4c28-b532-3f00cf01a585")
+		)
+		(pin "14"
+			(uuid "b8c3e28b-a512-4c48-91b6-fb4fded9b87a")
+		)
+		(instances
+			(project ""
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "U0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 87.63 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "572e52a9-53bb-42c1-8dc3-f65cc10f3927")
+		(property "Reference" "D13"
+			(at 90.17 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 90.17 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 87.63 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 87.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 87.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 87.63 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23ed8c45-90b2-4f9f-8a85-102dfb6bfd7b")
+		)
+		(pin "2"
+			(uuid "00264bf3-f373-42ee-a7a7-30293f6bb5cf")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 102.87 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a793580-2d10-4920-88c2-90a30e265fbd")
+		(property "Reference" "MX24"
+			(at 102.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 102.87 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "acda6bf8-cf02-4b68-bebd-c7e4478bf47d")
+		)
+		(pin "1"
+			(uuid "24c36e90-6588-40ff-b5d4-14c315b54628")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 144.78 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5abeb687-aeb7-4fa3-b55a-3a323aa75de2")
+		(property "Reference" "MX25"
+			(at 144.78 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 144.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 144.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 144.78 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c5c10537-4c1a-402f-9ce4-11a2317f57c5")
+		)
+		(pin "1"
+			(uuid "e58151a4-9072-4d7a-bef9-2a7bca1a848c")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 185.42 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c4ab3e3-f6ed-4fac-9404-c72af4e8c034")
+		(property "Reference" "D7"
+			(at 187.96 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 187.96 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 185.42 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 185.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 185.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 185.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "506cb6ed-191b-400f-a6d2-17a695e5af78")
+		)
+		(pin "2"
+			(uuid "718f159a-b856-44e9-b49a-340ea5d409c3")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 110.49 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "63958a3f-e103-4677-8aaa-39492e74a015")
+		(property "Reference" "#PWR01"
+			(at 233.68 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c3079bd-c98e-42b6-b83c-225884bafdbe")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 29.21 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6921b583-a885-454b-b495-da843c7dcd83")
+		(property "Reference" "MX20"
+			(at 29.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 29.21 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 29.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 29.21 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9f60a976-e2ea-4f57-ba0e-9202cc9447ec")
+		)
+		(pin "1"
+			(uuid "1ebc28d5-6625-4b4f-b6e5-76b0e6c3c622")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 134.62 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6acf3ee7-89d6-448e-995e-30f2b12ed607")
+		(property "Reference" "D34"
+			(at 137.16 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 137.16 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 134.62 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 134.62 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58d49f4f-9f21-4b95-a19d-d4a61b1a20ad")
+		)
+		(pin "2"
+			(uuid "41bcdc19-ca57-45f1-8f6c-7f8ecd2c9281")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 182.88 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f14681c-1706-45bf-8a74-a541602a9931")
+		(property "Reference" "MX7"
+			(at 182.88 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 182.88 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 182.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 182.88 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f3c81e39-f610-4c84-9fc3-cbd243480214")
+		)
+		(pin "1"
+			(uuid "1a1f915b-7bcd-4c99-b43a-360b2129e01e")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 269.24 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f683848-dfe2-45fc-aaaa-d362cfb4a507")
+		(property "Reference" "H4"
+			(at 271.78 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 271.78 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+			(at 269.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 269.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 269.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 269.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. #" ""
+			(at 269.24 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 48.26 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73c2d0e3-4f47-4a14-a01e-2aed70f07a57")
+		(property "Reference" "MX11"
+			(at 48.26 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 48.26 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 48.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 48.26 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "31da6ed2-74f6-40b2-95e7-fffbf5454f85")
+		)
+		(pin "1"
+			(uuid "c8fc48fd-bf0b-48fc-b3bd-93b2b07507fd")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 50.8 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "748b8369-59a1-410d-840b-ca9d89b0fd74")
+		(property "Reference" "D1"
+			(at 53.34 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 53.34 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 50.8 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "faf8c66e-a4d2-481d-82de-74f46f7e620d")
+		)
+		(pin "2"
+			(uuid "0bcf0b6c-4641-43f1-a50c-3699149fd8e6")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 220.98 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "769d7822-9843-46c3-9f90-352c93292b53")
+		(property "Reference" "D9"
+			(at 223.52 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 223.52 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 220.98 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 220.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 220.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 220.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53210100-317a-4284-b5af-0f1bae65743d")
+		)
+		(pin "2"
+			(uuid "7b7fd8d2-40e7-48e5-99ae-137d4c319d55")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 85.09 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7baa9dde-9f64-46a6-b335-9242111d2559")
+		(property "Reference" "MX23"
+			(at 85.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 85.09 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 85.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 85.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a3bfdbf1-fc8d-43a3-bfdd-2649a9f1d3fc")
+		)
+		(pin "1"
+			(uuid "6ddd020a-23f3-4b58-a14a-50fcf9bc68fc")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 69.85 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81d45090-655f-40a2-96e0-8e2ef187cbfb")
+		(property "Reference" "D2"
+			(at 72.39 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 72.39 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 69.85 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 69.85 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ee97a39-b810-40e2-b069-505a3ba265d5")
+		)
+		(pin "2"
+			(uuid "dd0e0034-38bf-4c1e-b657-e725d768bb91")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 218.44 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81d7c49d-7389-4363-9821-45041402acb3")
+		(property "Reference" "MX19"
+			(at 218.44 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 218.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 218.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4b8423c2-6f91-422e-a338-9f5f2750c32f")
+		)
+		(pin "1"
+			(uuid "01ea2642-8961-4acf-8701-259527922957")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 67.31 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "836e2ca9-68f8-4677-97c2-9ec4127302bc")
+		(property "Reference" "MX2"
+			(at 67.31 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 67.31 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 67.31 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 67.31 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0762661-e6df-49bf-921c-9e53f6c818b9")
+		)
+		(pin "1"
+			(uuid "f52fd82d-1472-416d-b278-96a930d89a6a")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 147.32 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8441fa5b-f806-4374-b030-6d85da39be57")
+		(property "Reference" "D5"
+			(at 149.86 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 149.86 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 147.32 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b015ca0-b929-4ab0-b4b5-7b3f07bb8dbd")
+		)
+		(pin "2"
+			(uuid "905bec42-a780-4ca6-90b4-76e1b720d57c")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 144.78 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "859eae15-b15c-472c-bd2d-ad59e4d02687")
+		(property "Reference" "MX5"
+			(at 144.78 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 144.78 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 144.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 144.78 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ffe5f21-dcac-4bc6-b212-065364476e59")
+		)
+		(pin "1"
+			(uuid "b2e25052-e90d-402d-8f33-e2e4e912bedb")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 67.31 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86c6c0bf-67c9-4295-8f00-e524b02cd661")
+		(property "Reference" "MX12"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 67.31 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1414343-e6fa-4328-8a62-78165492d3ce")
+		)
+		(pin "1"
+			(uuid "c1b6d1b3-72b9-4a40-822b-8f128874e244")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 102.87 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "872a7e86-53bd-4095-90fb-f30e92884d88")
+		(property "Reference" "MX14"
+			(at 102.87 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 102.87 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 102.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 102.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "48feef5e-db06-4461-b029-ab96423f0341")
+		)
+		(pin "1"
+			(uuid "92ccda43-b7a6-422c-987a-a4412d154fc0")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 105.41 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87bd5a02-87f5-4960-91c3-d1f6bb12593e")
+		(property "Reference" "D4"
+			(at 107.95 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 107.95 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 105.41 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 105.41 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc85859f-6d15-409e-b195-ceb0d23fe0f4")
+		)
+		(pin "2"
+			(uuid "b314e107-d93e-41b3-bb4f-0a66e80dfe20")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 147.32 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f6b12f9-1e89-40b0-af0c-ed27ed15184a")
+		(property "Reference" "D32"
+			(at 149.86 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 149.86 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 147.32 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 147.32 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 147.32 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bfaa89d-c668-43d6-b1bc-1fc22edfdf36")
+		)
+		(pin "2"
+			(uuid "86647708-4519-464a-9660-dbfcdf90c200")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 31.75 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99a30c78-fc7e-4fce-ab2c-4e3d20ac67c7")
+		(property "Reference" "D0"
+			(at 34.29 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 34.29 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 31.75 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 31.75 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82085dcf-3992-4f5b-a929-06caacb1e012")
+		)
+		(pin "2"
+			(uuid "00eb527a-f2d2-4135-b17b-a85a4d1647d1")
+		)
+		(instances
+			(project ""
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D0")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 29.21 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9dc6b188-a5f1-4ab8-9b8e-9dfdd32a6444")
+		(property "Reference" "MX10"
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 29.21 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 29.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 29.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0ad41697-e063-488e-bf97-8fb2ce66a0f6")
+		)
+		(pin "1"
+			(uuid "6f30d48d-4071-4297-951b-c5bd905387b9")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a45e960c-0479-4774-a76c-b727786505ab")
+		(property "Reference" "#PWR04"
+			(at 72.39 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cbfd6e5e-85a9-4120-818f-dadb86c1dc2b")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 166.37 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b13501ef-afde-48eb-9fdf-f915cb9ffc93")
+		(property "Reference" "D16"
+			(at 168.91 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 168.91 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 166.37 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 166.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 166.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "33de0c43-6c9a-443d-b6f3-962c6664db2f")
+		)
+		(pin "2"
+			(uuid "ae912d71-8a3e-4878-9828-54ffbe7402bb")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 163.83 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4b3e4a1-cbd5-4fda-abec-979906768126")
+		(property "Reference" "MX26"
+			(at 163.83 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 163.83 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e6650b15-5112-47e4-b57c-c05d5374a0ef")
+		)
+		(pin "1"
+			(uuid "e64d19d2-fa0f-4a98-9773-1fbb09f98d71")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 102.87 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b98eac9d-1d04-4893-90e0-820392c3d206")
+		(property "Reference" "MX4"
+			(at 102.87 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 102.87 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 102.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 102.87 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b23e20f-2f12-4584-98cc-b885b7bf67ae")
+		)
+		(pin "1"
+			(uuid "b49cd115-5589-4de8-9cda-65daed4ee9c2")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 31.75 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba85711f-3203-4ea1-a160-6acd7db28738")
+		(property "Reference" "D20"
+			(at 34.29 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 34.29 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 31.75 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 31.75 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac6cbd99-f4eb-4e26-87d4-20ee27ef4fbf")
+		)
+		(pin "2"
+			(uuid "4fc2d9a8-422d-4b57-9c90-ca0e04e86f06")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 105.41 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc8ae155-19b2-416a-993b-df04c981cf9c")
+		(property "Reference" "D14"
+			(at 107.95 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 107.95 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 105.41 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 105.41 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 105.41 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 105.41 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b021102b-ffde-44a5-8b35-bb75a42c2b9e")
+		)
+		(pin "2"
+			(uuid "daf5126b-5f0c-4e63-9697-5d53af245af6")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 102.87 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdc2a0ad-55a4-40b8-81df-699a323e0d4f")
+		(property "Reference" "MX31"
+			(at 102.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 102.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1.75u"
+			(at 102.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 102.87 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f69ce1e4-0751-479f-a6bd-c05e31e8d656")
+		)
+		(pin "1"
+			(uuid "c2338900-bc13-4ce7-be9e-3304d92473cd")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 87.63 110.49 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2db7cfe-7029-4705-ad86-dd39768ba925")
+		(property "Reference" "D30"
+			(at 90.17 109.2199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 90.17 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 87.63 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 87.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 87.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 87.63 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f0b80a9-3cc3-4fd8-b3dd-872b7760a103")
+		)
+		(pin "2"
+			(uuid "36515a4d-c143-4900-8481-cf2e8e1f2862")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 218.44 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c4e95b1e-536e-4ab1-a9dc-24caf62595cb")
+		(property "Reference" "MX9"
+			(at 218.44 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 218.44 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 218.44 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 218.44 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb5a5d3b-b373-4954-aeac-4c7b409f0003")
+		)
+		(pin "1"
+			(uuid "f81ce196-ec53-4d9e-848f-865f208dc1bc")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 144.78 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c503ac92-1717-4cc9-901f-49370bd8aaa9")
+		(property "Reference" "MX32"
+			(at 144.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 144.78 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1.75u"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 144.78 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4374737f-465b-477a-8b3d-d20f16aa1521")
+		)
+		(pin "1"
+			(uuid "deaff8d1-3ef6-4469-bd72-eb3c9b558c2b")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 200.66 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cec5a69f-1662-490f-a7b8-cdad7d4751d9")
+		(property "Reference" "MX28"
+			(at 200.66 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 200.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 200.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 200.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c7735537-e84c-4ac6-a722-581832409895")
+		)
+		(pin "1"
+			(uuid "343ab653-94da-4b13-8ea8-69fa703354f9")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 147.32 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cee7f716-7b46-47de-8ae0-d30bea1a44be")
+		(property "Reference" "D15"
+			(at 149.86 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 149.86 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 147.32 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 147.32 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80d6071b-8f37-4a62-855b-350386cfbca9")
+		)
+		(pin "2"
+			(uuid "908021e8-4953-4b2d-b7f3-b2bc60a9b68e")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 144.78 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf0c5002-fb95-45ac-a469-d7e5299be064")
+		(property "Reference" "MX15"
+			(at 144.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 144.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 144.78 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "155ebaf4-801d-4fac-b5ad-4d4ebff5f19d")
+		)
+		(pin "1"
+			(uuid "d75f550d-528d-4f01-bd0b-4d45cfeaf8c8")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 259.08 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1561d1f-d1b9-4c3e-970b-ad847b1e1c64")
+		(property "Reference" "H2"
+			(at 261.62 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 261.62 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+			(at 259.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 259.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 259.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. #" ""
+			(at 259.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 203.2 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d27ea3a3-3490-4b71-b183-8925e009f3f7")
+		(property "Reference" "D8"
+			(at 205.74 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 205.74 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 203.2 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 203.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 203.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 203.2 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4213757-cb3d-450b-9609-56d8cd544e5a")
+		)
+		(pin "2"
+			(uuid "19803392-f717-4fff-bba2-d1679a7609bd")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 85.09 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d39f8960-2a0b-4d16-b841-2c9abdc5b651")
+		(property "Reference" "MX13"
+			(at 85.09 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 85.09 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 85.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 85.09 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c5d89665-ad90-4035-9122-708eed04c0ea")
+		)
+		(pin "1"
+			(uuid "eb908958-e0ac-40e4-8b67-d983e4f8aa48")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 166.37 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d48610da-4dbc-4ee7-85c8-befcb2e4858e")
+		(property "Reference" "D6"
+			(at 168.91 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 168.91 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 166.37 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 166.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 166.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90f7a624-052d-488e-85a2-b544668ce364")
+		)
+		(pin "2"
+			(uuid "bcfc05e1-7a35-452f-8b54-75cbfe7afa1c")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 85.09 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d618db48-7235-4c29-9047-0696c790a1a9")
+		(property "Reference" "MX30"
+			(at 85.09 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 85.09 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1.25u"
+			(at 85.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 85.09 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e04248c8-3300-42da-bd38-815d2e826894")
+		)
+		(pin "1"
+			(uuid "34256b3b-4dfc-4871-8cb9-e5ee1d7e4c2c")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 50.8 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d85dc1dc-ec5f-452b-88ab-0a76da68e341")
+		(property "Reference" "D11"
+			(at 53.34 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 53.34 52.0699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 50.8 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cc977b0-6de8-4619-8917-90f6c226bb50")
+		)
+		(pin "2"
+			(uuid "23e4e113-67c2-4415-91c3-6c52a374ff10")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 220.98 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8765dd9-b0b8-4600-82ae-809077f92a18")
+		(property "Reference" "D29"
+			(at 223.52 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 223.52 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 220.98 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 220.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 220.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 220.98 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4784632-e3b7-4f4d-99c2-5e921930be40")
+		)
+		(pin "2"
+			(uuid "23c54e6f-c343-4d76-bbb4-02db715ccf45")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 163.83 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db54e34a-4260-41d5-bfec-131380b8fa08")
+		(property "Reference" "MX16"
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 163.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 163.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 163.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59681ffa-65fd-42b7-bcf7-4b295c9f74de")
+		)
+		(pin "1"
+			(uuid "ea4c10cb-1b53-452b-975f-d3f8c554039a")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 218.44 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db5cf32d-cb8d-46ef-bd9d-3a413a10f3f2")
+		(property "Reference" "J1"
+			(at 215.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 215.9 100.3301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. #" ""
+			(at 218.44 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "649ca078-d4cb-408f-9eda-93b49097a5cd")
+		)
+		(pin "2"
+			(uuid "409b2d2c-201e-4aca-b650-9a748a7418b5")
+		)
+		(pin "3"
+			(uuid "9c74dee1-22f5-41b8-b1c9-ee8168b48dc9")
+		)
+		(pin "4"
+			(uuid "46bff761-c658-43b6-b2cf-39dc9a72db72")
+		)
+		(pin "5"
+			(uuid "afb75d36-1538-463d-81cc-96a5dee2e04a")
+		)
+		(pin "6"
+			(uuid "6e82ca09-f42b-493d-8ee7-06416daa0d58")
+		)
+		(pin "7"
+			(uuid "aa620167-cc9b-4a74-912b-333dea203b5a")
+		)
+		(pin "8"
+			(uuid "ad88afbf-54a8-42bb-bc73-6d97e8d00834")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 87.63 30.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de4ae6d4-36e1-4376-b4b8-91ad5307df79")
+		(property "Reference" "D3"
+			(at 90.17 29.2099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 90.17 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 87.63 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 87.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 87.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 87.63 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dafc14f0-a3f9-4824-b000-dfb1e287e8e2")
+		)
+		(pin "2"
+			(uuid "68d3e725-9269-45c2-b02d-357fdb92f8c5")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 254 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eeb1600c-1e6a-4a12-b03a-2bd9386d0e8d")
+		(property "Reference" "H1"
+			(at 256.54 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 256.54 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+			(at 254 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 254 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 254 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. #" ""
+			(at 254 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 67.31 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2333eab-9692-4228-9c7c-c8f3ddc22e26")
+		(property "Reference" "MX22"
+			(at 67.31 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 67.31 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 67.31 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f4e4e7a3-f218-43cd-a7ff-422a1e205dd9")
+		)
+		(pin "1"
+			(uuid "9dbd0601-a638-4f88-9e9e-890d2fd23ba4")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "marbastlib-mx:MX_SW_HS_CPG151101S11")
+		(at 163.83 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f3542253-39ed-4234-ac8c-ac99416dcc1d")
+		(property "Reference" "MX6"
+			(at 163.83 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MX_SW_HS"
+			(at 163.83 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 163.83 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 163.83 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bcbca17b-c858-4136-ab9c-e33107170354")
+		)
+		(pin "1"
+			(uuid "bc4dbf4c-4c20-44d6-b4f4-28504c2a7b0a")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "MX6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 264.16 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f87d9d73-8133-4285-b23d-6674b6ac84e8")
+		(property "Reference" "H3"
+			(at 266.7 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 266.7 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
+			(at 264.16 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 264.16 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 264.16 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. #" ""
+			(at 264.16 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 69.85 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc3ebff0-ead0-4b9a-8d89-f80cc7cc5ced")
+		(property "Reference" "D22"
+			(at 72.39 68.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Small"
+			(at 72.39 71.1199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 69.85 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 69.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode, small symbol"
+			(at 69.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 69.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 69.85 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc478f68-9ffe-4880-92a3-740bd13366f7")
+		)
+		(pin "2"
+			(uuid "60c6e3a3-1d39-4e1d-b1f4-d0a8e0fca8fe")
+		)
+		(instances
+			(project "solaris"
+				(path "/09fbe69d-ce71-4fe6-9ff1-a25c182f5527"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
